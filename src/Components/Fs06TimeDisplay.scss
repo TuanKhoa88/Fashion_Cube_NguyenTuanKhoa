@@ -1,0 +1,63 @@
+@import '~mdb-ui-kit/css/mdb.min.css';
+
+.countdown-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+    h2 {
+        text-align: center;
+    }
+
+    button {
+        border: none;
+        margin: 50px auto 0px;
+        background-color: black;
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 5px;
+    }
+
+    button:hover {
+        background-color: #fe4b50;
+    }
+
+    .line {
+        background-color: #fe4b50;
+        height: 5px;
+        width: 50px;
+        margin: 0px auto 50px;
+    }
+
+    .time-container {
+        display: flex;
+        justify-content: space-between;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background-color: #fff;
+            width: 100px;
+            height: 100px;
+            color: #fe4b50;
+            font-size: 40px;
+            font-weight: 700;
+            margin-right: 15px;
+           
+
+            p {
+                font-size: 14px;
+                color: black;
+                margin-bottom: 5px;
+            }
+        }
+    }
+
+}

@@ -1,25 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import Fs065TotalTime from './Components/Fs065TotalTime';
+import Fs01Header from './Components/Fs01Header';
+import Fs02Navbar from './Components/Fs02Navbar';
+import Fs03Carosel from './Components/Fs03Carosel';
+import Fs04Category from './Components/Fs04Category';
+import Fs05Services from './Components/Fs05Services';
+import Fs07Footer from './Components/Fs07Footer';
 
-function App() {
+
+import React from 'react'
+
+export default function () {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Fs01Header />
+      <Fs02Navbar/>
+      <Fs03Carosel />
+      <Fs04Category />
+      <Fs05Services />
+      <Fs065TotalTime />
+      <Fs07Footer />
     </div>
-  );
+  )
 }
 
-export default App;
